@@ -6,46 +6,19 @@
 }
 
 body {
+
     font-family: 'Bubble Games';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #b4ffb4;
+    font-size: 16px;
+    color: black:
 }
 
-body h1 {
-    text-shadow: 2px 2px 5px forestgreen;
+h1 {
+    text-align: center;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 10px 20px 10px 20px;
-    background-color: #3fd33f;
-    padding: 10px;
-    border: 5px ridge #0d630d;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-nav ul li:hover {
-    background-color: #e4ffde;
-    margin: 0px;
-    padding: 20px 30px 20px 30px;
-    transition: 0.5s;
-}
-
-article {
-    background-color: #e4ffde;
-    width: 75%;
-    border-width: 5px;
-    border-style: ridge;
-    border-color: #0d630d;
-    border-radius: 10px;
+section {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
     padding: 10px;
 }
