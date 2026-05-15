@@ -1,0 +1,5 @@
+[
+null,
+{"id":1,"battlerName":"The Biggest Bird (Battler)","characterIndex":0,"characterName":"The Biggest Bird","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"The Biggest Bird","traits":[],"initialLevel":1,"maxLevel":99,"name":"TheobaldTheBird","nickname":"Theo","note":"","profile":"The Biggest Bird"},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"Nature_chara_MV","classId":9,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature_faces_MV","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butterdog","nickname":"B-Dawg","note":"","profile":"The dog with the butter on him."}
+]
