@@ -21,52 +21,52 @@
     </nav>
 
     <section class="hero">
-    <h1>Try To Start The Game</h1>
+        <h1>Try To Start The Game</h1>
 
-    <p class="main-text">
-        Click the "Start Game" button below to begin.
-        Good luck catching it.
-    </p>
+        <p class="main-text">
+            Click the "Start Game" button below to begin.
+            Good luck catching it.
+        </p>
 
-    <div class="game-box">
-        <button id="startButton" onclick="moveButton()">
-            Start Game
-        </button>
+        <div class="game-box">
+            <button id="startButton" onmouseover="moveButton()">
+                Start Game
+            </button>
 
-        <p id="brokenMessage"></p>
+            <p id="brokenMessage"></p>
 
-    </div>
+        </div>
 
-</section>
+    </section>
 
-<script>
-    let tries = 0;
+    <script>
+        let tries = 0;
 
-    function moveButton() {
-        var button = document.getElementById("startButton");
-        var gameBox = document.getElementById(".game-box");
-        var message = document.getElementById("brokenMessage");
+        function moveButton() {
+            var button = document.getElementById("startButton");
+            var gameBox = document.querySelector(".game-box");
+            var message = document.getElementById("brokenMessage");
 
-        var maxWidth = gameBox.clientWidth - 150;
-        var maxHeight = gameBox.clientHeight - 60;
+            var maxWidth = gameBox.clientWidth - button.offsetWidth;
+            var maxHeight = gameBox.clientHeight - button.offsetWidth;
 
 
-        var randomX = Math.random() * maxWidth;
-        var randomY = Math.random() * maxHeight;
+            var randomX = Math.random() * maxWidth;
+            var randomY = Math.random() * maxHeight;
 
-        button.style.left = randomX + "px";
-        button.style.top = randomY + "px";
+            button.style.left = randomX + "px";
+            button.style.top = randomY + "px";
 
-        tries++;
+            tries++;
 
-        if (tries >= 10) {
-            message.innerHTML = 'uh ohh... you are too slow.<br>Maybe try the "Game Page" button on the navbar';
+            if (tries >= 10) {
+                message.innerHTML = 'uh ohh... you are too slow.<br>Maybe try the "Game Page" button on the navbar';
+            }
         }
-    }
-</script>
+    </script>
+
+    <footer>
+        &copy; 2026
+    </footer>
 
 </body>
-
-<footer>
-    &copy; 2026
-</footer>
