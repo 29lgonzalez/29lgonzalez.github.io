@@ -20,10 +20,53 @@
         </ul>
     </nav>
 
-    <article>
-        <h2>Article Title</h2>
-        <p>Some text.</p>
-    </article>
-    <footer>
-        &copy; 2026
-    </footer>
+    <section class="hero">
+    <h1>Try To Start The Game</h1>
+
+    <p class="main-text">
+        Click the "Start Game" button below to begin.
+        Good luck catching it.
+    </p>
+
+    <div class="game-box">
+        <button id="startButton" onclick="moveButton()">
+            Start Game
+        </button>
+
+        <p id="brokenMessage"></p>
+
+    </div>
+
+</section>
+
+<script>
+    let tries = 0;
+
+    function moveButton() {
+        var button = document.getElementById("startButton");
+        var gameBox = document.getElementById(".game-box");
+        var message = document.getElementById("brokenMessage");
+
+        var maxWidth = gameBox.clientWidth - 150;
+        var maxHeight = gameBox.clientHeight - 60;
+
+
+        var randomX = Math.random() * maxWidth;
+        var randomY = Math.random() * maxHeight;
+
+        button.style.left = randomX + "px";
+        button.style.top = randomY + "px";
+
+        tries++;
+
+        if (tries >= 10) {
+            message.innerHTML = 'uh ohh... you are too slow.<br>Maybe try the "Game Page" button on the navbar';
+        }
+    }
+</script>
+
+</body>
+
+<footer>
+    &copy; 2026
+</footer>
