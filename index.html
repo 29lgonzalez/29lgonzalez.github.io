@@ -6,12 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Hub</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="logo">Game Hub<span class="subtitle">By Luis Gonzalez, The Biggest Bird</span></div>
+        <div class="logo">
+            Game Hub
+            <span class="subtitle">
+                By Luis Gonzalez, The Biggest Bird
+            </span>
+        </div>
 
         <ul class="nav-links">
             <li><a href="index.html">Home Page</a></li>
@@ -50,6 +56,7 @@
             var maxWidth = gameBox.clientWidth - button.offsetWidth;
             var maxHeight = gameBox.clientHeight - button.offsetWidth;
 
+            button.style.transform = "none";
 
             var randomX = Math.random() * maxWidth;
             var randomY = Math.random() * maxHeight;
@@ -70,3 +77,5 @@
     </footer>
 
 </body>
+
+</html>
