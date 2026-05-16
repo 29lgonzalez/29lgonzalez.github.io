@@ -195,12 +195,12 @@ footer{
 .game-page-box{
     position: relative;
 
-    width: 850px;
-    height: 650px;
+    width: 826px;
+    height: 633.5px;
 
     margin: 40px auto;
 
-    border: 5px ridge #0d630d;
+    border: 5px solid #0d630d;
     border-radius: 15px;
 
     background-color: #e4ffde;
