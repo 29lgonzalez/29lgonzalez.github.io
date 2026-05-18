@@ -51,10 +51,7 @@
 
         const button = document.getElementById("startButton");
 
-        const isMobile =
-            /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
-
-        if (isMobile) {
+        if (window.innerWidth <= 768) {
             button.addEventListener("click", moveButton);
         }
 
