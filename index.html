@@ -35,7 +35,7 @@
         </p>
 
         <div class="game-box">
-            <button id="startButton" onmouseover="moveButton()">
+            <button id="startButton">
                 Start Game
             </button>
 
@@ -46,17 +46,31 @@
     </section>
 
     <script>
+
         let tries = 0;
 
+        const button = document.getElementById("startButton");
+
+        const isMobile =
+            /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
+
+        if (isMobile) {
+            button.addEventListener("click", moveButton);
+        }
+
+        else {
+            button.addEventListener("mouseover", moveButton);
+        }
+
         function moveButton() {
-            var button = document.getElementById("startButton");
+
             var gameBox = document.querySelector(".game-box");
             var message = document.getElementById("brokenMessage");
 
-            var maxWidth = gameBox.clientWidth - button.offsetWidth;
-            var maxHeight = gameBox.clientHeight - button.offsetWidth;
-
             button.style.transform = "none";
+
+            var maxWidth = gameBox.clientWidth - button.offsetWidth;
+            var maxHeight = gameBox.clientHeight - button.offsetHeight;
 
             var randomX = Math.random() * maxWidth;
             var randomY = Math.random() * maxHeight;
@@ -67,9 +81,13 @@
             tries++;
 
             if (tries >= 10) {
-                message.innerHTML = 'uh ohh... you are too slow.<br>Maybe try the "Game Page" button on the navbar';
+
+                message.innerHTML =
+                    'uh ohh... you are too slow.<br>Maybe try the "Game Page" button on the navbar';
+
             }
         }
+
     </script>
 
     <footer>
