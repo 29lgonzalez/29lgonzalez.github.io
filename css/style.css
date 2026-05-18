@@ -290,4 +290,7 @@ footer {
         font-size: 18px;
         padding: 20px;
     }
+    .game-page-box {
+        height: 550px;
+    }
 }
