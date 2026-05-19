@@ -1,15 +1,15 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Dungeon Vault","order":4,"parentId":8,"scrollX":1069.3333333333333,"scrollY":598,"quick":false},
-{"id":2,"expanded":true,"name":"World Map","order":1,"parentId":0,"scrollX":1069.3333333333333,"scrollY":598,"quick":false},
-{"id":3,"expanded":true,"name":"Weapon Shop","order":9,"parentId":12,"scrollX":1069.3333333333333,"scrollY":598,"quick":false},
-{"id":4,"expanded":true,"name":"Armor Shop","order":8,"parentId":12,"scrollX":874.909090909091,"scrollY":489.2727272727273,"quick":false},
-{"id":5,"expanded":false,"name":"Item Shop","order":10,"parentId":12,"scrollX":1069.3333333333333,"scrollY":587.3333333333334,"quick":false},
-{"id":6,"expanded":true,"name":"Boulder Pass","order":2,"parentId":2,"scrollX":1069.3333333333333,"scrollY":800.6666666666666,"quick":false},
-{"id":7,"expanded":true,"name":"House","order":5,"parentId":2,"scrollX":1069.3333333333333,"scrollY":598,"quick":false},
-{"id":8,"expanded":true,"name":"Boulder Pass Dungeon","order":3,"parentId":6,"scrollX":1069.3333333333333,"scrollY":1204.6666666666667,"quick":false},
-{"id":9,"expanded":true,"name":"Forest Pass","order":11,"parentId":2,"scrollX":1924.8,"scrollY":1323.6,"quick":false},
-{"id":10,"expanded":false,"name":"House (Inside","order":6,"parentId":7,"scrollX":1069.3333333333333,"scrollY":598,"quick":false},
+{"id":1,"expanded":false,"name":"Dungeon Vault","order":6,"parentId":8,"scrollX":712,"scrollY":391.3333333333333,"quick":false},
+{"id":2,"expanded":true,"name":"World Map","order":1,"parentId":0,"scrollX":722.6666666666666,"scrollY":598,"quick":false},
+{"id":3,"expanded":true,"name":"Weapon Shop","order":10,"parentId":12,"scrollX":874.909090909091,"scrollY":480.54545454545456,"quick":false},
+{"id":4,"expanded":true,"name":"Armor Shop","order":9,"parentId":12,"scrollX":874.909090909091,"scrollY":480.54545454545456,"quick":false},
+{"id":5,"expanded":false,"name":"Item Shop","order":11,"parentId":12,"scrollX":816,"scrollY":624,"quick":false},
+{"id":6,"expanded":true,"name":"Boulder Pass","order":4,"parentId":2,"scrollX":712,"scrollY":820.6666666666666,"quick":false},
+{"id":7,"expanded":true,"name":"House","order":2,"parentId":2,"scrollX":712,"scrollY":391.3333333333333,"quick":false},
+{"id":8,"expanded":true,"name":"Boulder Pass Dungeon","order":5,"parentId":6,"scrollX":821.3333333333334,"scrollY":512.6666666666666,"quick":false},
+{"id":9,"expanded":true,"name":"Forest Pass","order":7,"parentId":2,"scrollX":1390.2857142857142,"scrollY":784.2857142857142,"quick":false},
+{"id":10,"expanded":false,"name":"House (Inside","order":3,"parentId":7,"scrollX":1081.3333333333333,"scrollY":610,"quick":false},
 null,
-{"id":12,"expanded":true,"name":"Town","order":7,"parentId":2,"scrollX":1080,"scrollY":602}
+{"id":12,"expanded":false,"name":"Town","order":8,"parentId":2,"scrollX":712.8888888888889,"scrollY":398.6666666666667}
 ]
